@@ -1,0 +1,76 @@
+2019-10-11 17:44:48.036 +05:30 [DBG] Hosting starting
+2019-10-11 17:44:48.098 +05:30 [INF] User profile is available. Using 'C:\Users\Anuja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-11 17:44:48.116 +05:30 [DBG] Reading data from file 'C:\Users\Anuja\AppData\Local\ASP.NET\DataProtection-Keys\key-6b24a173-02a0-4dbb-b532-1552ea10f39d.xml'.
+2019-10-11 17:44:48.134 +05:30 [DBG] Reading data from file 'C:\Users\Anuja\AppData\Local\ASP.NET\DataProtection-Keys\key-de144efa-1262-470e-8386-08aba96c761b.xml'.
+2019-10-11 17:44:48.137 +05:30 [DBG] Found key "6b24a173-02a0-4dbb-b532-1552ea10f39d".
+2019-10-11 17:44:48.140 +05:30 [DBG] Found key "de144efa-1262-470e-8386-08aba96c761b".
+2019-10-11 17:44:48.146 +05:30 [DBG] Considering key "de144efa-1262-470e-8386-08aba96c761b" with expiration date "2019-11-17T06:52:19.2771116+00:00" as default key.
+2019-10-11 17:44:48.166 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-10-11 17:44:48.168 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2019-10-11 17:44:48.169 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2019-10-11 17:44:48.172 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2019-10-11 17:44:48.173 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2019-10-11 17:44:48.175 +05:30 [DBG] Using key "de144efa-1262-470e-8386-08aba96c761b" as the default key.
+2019-10-11 17:44:48.175 +05:30 [DBG] Key ring with default key "de144efa-1262-470e-8386-08aba96c761b" was loaded during application startup.
+2019-10-11 17:44:48.310 +05:30 [DBG] Failed to locate the development https certificate at 'null'.
+2019-10-11 17:44:48.351 +05:30 [INF] Now listening on: http://127.0.0.1:19902
+2019-10-11 17:44:48.352 +05:30 [DBG] Loaded hosting startup assembly SerilogInNetCore
+2019-10-11 17:44:48.352 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2019-10-11 17:44:48.352 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2019-10-11 17:44:48.352 +05:30 [INF] Hosting environment: Development
+2019-10-11 17:44:48.352 +05:30 [INF] Content root path: D:\Projects\Trial projects\SerilogInNetCore\SerilogInNetCore
+2019-10-11 17:44:48.352 +05:30 [DBG] Hosting started
+2019-10-11 17:44:48.447 +05:30 [DBG] Connection id "0HLQE8IE5TOVS" accepted.
+2019-10-11 17:44:48.448 +05:30 [DBG] Connection id "0HLQE8IE5TOVT" accepted.
+2019-10-11 17:44:48.448 +05:30 [DBG] Connection id "0HLQE8IE5TOVS" started.
+2019-10-11 17:44:48.448 +05:30 [DBG] Connection id "0HLQE8IE5TOVT" started.
+2019-10-11 17:44:48.468 +05:30 [INF] Request starting HTTP/1.1 DEBUG http://localhost:59047/  0
+2019-10-11 17:44:48.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:44387/  
+2019-10-11 17:44:48.471 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2019-10-11 17:44:48.471 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2019-10-11 17:44:48.485 +05:30 [DBG] The request path / does not match a supported file type
+2019-10-11 17:44:48.489 +05:30 [DBG] Connection id "0HLQE8IE5TOVT" completed keep alive response.
+2019-10-11 17:44:48.497 +05:30 [INF] Request finished in 24.197200000000002ms 200 
+2019-10-11 17:44:48.514 +05:30 [DBG] 1 candidate(s) found for the request path '/'
+2019-10-11 17:44:48.516 +05:30 [DBG] Endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2019-10-11 17:44:48.516 +05:30 [DBG] Request matched endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)'
+2019-10-11 17:44:48.517 +05:30 [INF] Executing endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)'
+2019-10-11 17:44:48.523 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider"]
+2019-10-11 17:44:48.562 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SerilogInNetCore.Controllers.HomeController (SerilogInNetCore).
+2019-10-11 17:44:48.563 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2019-10-11 17:44:48.563 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2019-10-11 17:44:48.564 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2019-10-11 17:44:48.564 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2019-10-11 17:44:48.564 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2019-10-11 17:44:48.564 +05:30 [DBG] Executing controller factory for controller SerilogInNetCore.Controllers.HomeController (SerilogInNetCore)
+2019-10-11 17:44:48.565 +05:30 [DBG] Executed controller factory for controller SerilogInNetCore.Controllers.HomeController (SerilogInNetCore)
+2019-10-11 17:44:48.566 +05:30 [DBG] Test Debug
+2019-10-11 17:44:48.566 +05:30 [INF] Test Info
+2019-10-11 17:44:48.567 +05:30 [ERR] Test Error
+2019-10-11 17:44:48.624 +05:30 [ERR] Error in Home Controller
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SerilogInNetCore.Controllers.HomeController.Index() in D:\Projects\Trial projects\SerilogInNetCore\SerilogInNetCore\Controllers\HomeController.cs:line 15
+2019-10-11 17:44:48.661 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2019-10-11 17:44:48.661 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2019-10-11 17:44:48.662 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2019-10-11 17:44:48.662 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2019-10-11 17:44:48.662 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2019-10-11 17:44:48.667 +05:30 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2019-10-11 17:44:48.673 +05:30 [INF] Executing ViewResult, running view Index.
+2019-10-11 17:44:48.677 +05:30 [DBG] The view path '/Views/Home/Index.cshtml' was found in 6.9389ms.
+2019-10-11 17:44:48.700 +05:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2019-10-11 17:44:48.732 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2019-10-11 17:44:48.738 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2019-10-11 17:44:48.744 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2019-10-11 17:44:48.754 +05:30 [INF] Executed ViewResult - view Index executed in 87.01180000000001ms.
+2019-10-11 17:44:48.754 +05:30 [INF] Executed action SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore) in 190.1339ms
+2019-10-11 17:44:48.754 +05:30 [INF] Executed endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)'
+2019-10-11 17:44:48.754 +05:30 [DBG] Connection id "0HLQE8IE5TOVS" completed keep alive response.
+2019-10-11 17:44:48.756 +05:30 [INF] Request finished in 289.85970000000003ms 200 text/html; charset=utf-8
+2019-10-11 17:45:03.860 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:44387/  
+2019-10-11 17:45:03.861 +05:30 [DBG] The request path / does not match a supported file type
+2019-10-11 17:45:03.861 +05:30 [DBG] 1 candidate(s) found for the request path '/'
+2019-10-11 17:45:03.861 +05:30 [DBG] Endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2019-10-11 17:45:03.861 +05:30 [DBG] Request matched endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)'
+2019-10-11 17:45:03.861 +05:30 [INF] Executing endpoint 'SerilogInNetCore.Controllers.HomeController.Index (SerilogInNetCore)'
+2019-10-11 17:45:03.861 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SerilogInNetCore.Controllers.HomeController (SerilogInNetCore).
